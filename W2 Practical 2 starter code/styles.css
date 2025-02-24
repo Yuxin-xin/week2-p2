@@ -31,20 +31,16 @@ header{
     font-size: 1em;
     text-align: right;
 }
-nav ul a{
-    display:inline-flex;
+nav ul li{
+    display:inline-block;
     background-color: #3f9cff;
-    padding: 10px;
-    border-radius: 6px;
+    padding: 10px 70px;
     color: white;
-  }
-  
-  #main-nav li {
-    flex: 1;
     text-align: center;
   }
   
-  #main-nav a {
+  
+  nav ul a{
     display: block;
     color: white;
     font-size: 1.2rem;
